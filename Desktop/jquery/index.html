@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,500,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=e81e5104-251c-4b79-be5e-921edf1f9646&lang=ru_RU" type="text/javascript"> 
+	</script> 
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="head">
+				<div class="row align-items-center">
+					<div class="col-xl-3 col-lg-2 col-auto">
+					</div>
+					<div class="col-xl-6 col-lg-7 col-auto d-flex align-items-center order-lg-0 order-1">
+						<nav class="head__menu">
+							<ul class="head__links d-flex">
+								<li class="head__item">
+									<a href="#main" class="head__link">
+										Главная
+									</a>
+								<li class="head__item">
+									<a href="#review" class="head__link">
+										Отзывы
+									</a>
+								</li>
+								<li class="head__item">
+									<a href="#promo" class="head__link">
+										promo
+									</a>
+								</li>
+							</ul>
+							<button type="button" class="menu-close" id="closeMenu">x</button>
+						</nav>
+						<div class="hamburger">
+							<img src="img/hamburger.svg" alt="Гамбургер">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="offer">
+						<h1 class="offer__title">
+								LEVEL UP
+						</h1>
+						<ul class="offer__disc">
+							<li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, temporibus. Cum nihil distinctio nemo praesentium ducimus earum sunt provident eligendi modi beatae tempore voluptatibus doloribus, at totam nisi neque expedita! </li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vitae, nisi quibusdam dolores est officiis? Iusto temporibus quis doloribus architecto similique! Non perspiciatis aperiam nisi eum ab possimus tenetur quae!</li>
+							<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate illo sunt ratione excepturi autem, maiores officiis quos laudantium beatae deserunt accusamus libero asperiores mollitia culpa velit fugiat voluptates corrupti impedit.</li>
+						</ul>
+						<a href="#order" class="offer__link">Заказать</a>
+					</div>
+				</div>
+				<div class="col-lg-6 d-flex justify-content-center" >
+					<div class="images" id="scene">
+						<div data-depth="0.8" class="layer">
+							<img src="img/prod.png" alt="Изображение продукта" class="main-img-sm">
+						</div>
+					</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="reviews" id="review">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="section__title">
+							<span>отзывы</span>
+							пользователей
+					</h2>
+					<div class="slider swiper-container">
+						<div class="slider__list swiper-wrapper">
+							<div class="person swiper-slide">
+								<div class="person__headline d-flex align-items-center">
+									<img src="img/person.png" alt="" class="person__pic">
+									<div class="person__info">
+										<h5 class="preson__name">Антон Михайлов</h5>
+									</div>
+								</div>
+								<p class="person__speach">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, incidunt culpa. Accusantium ut ipsam voluptatibus, nostrum iusto nihil id ex velit ea quasi amet similique blanditiis! Totam temporibus saepe reprehenderit!</p>
+							</div>
+
+							<div class="person swiper-slide">
+								<div class="person__headline d-flex align-items-center">
+									<img src="img/person.png" alt="" class="person__pic">
+									<div class="person__info">
+										<h5 class="preson__name">Евгений Чебатков</h5>
+									</div>
+								</div>
+								<p class="person__speach">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, incidunt culpa. Accusantium ut ipsam voluptatibus, nostrum iusto nihil id ex velit ea quasi amet similique blanditiis! Totam temporibus saepe reprehenderit!</p>
+							</div>
+							
+							<div class="person swiper-slide">
+								<div class="person__headline d-flex align-items-center">
+									<img src="img/person.png" alt="" class="person__pic">
+									<div class="person__info">
+										<h5 class="preson__name">Иван Иванов</h5>
+									</div>
+								</div>
+								<p class="person__speach">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, incidunt culpa. Accusantium ut ipsam voluptatibus, nostrum iusto nihil id ex velit ea quasi amet similique blanditiis! Totam temporibus saepe reprehenderit!</p>
+							</div>
+
+							<div class="person swiper-slide">
+								<div class="person__headline d-flex align-items-center">
+									<img src="img/person.png" alt="" class="person__pic">
+									<div class="person__info">
+										<h5 class="preson__name">Григорий Евпатин</h5>
+									</div>
+								</div>
+								<p class="person__speach">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste placeat tenetur quibusdam earum aperiam vero cumque praesentium, suscipit tempore. Odio nam ex eaque eius placeat culpa iste adipisci et repellendus.</p>
+							</div>
+							
+							<div class="person swiper-slide">
+								<div class="person__headline d-flex align-items-center">
+									<img src="img/person.png" alt="" class="person__pic">
+									<div class="person__info">
+										<h5 class="preson__name">Иван Максимов</h5>
+									</div>
+								</div>
+								<p class="person__speach">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eum cupiditate vel! Autem laboriosam consequatur illum, quaerat dicta ab quos corrupti officiis numquam, quo ut alias corporis odit optio dignissimos.</p>
+							</div>
+						</div>
+						<ul class="dots">
+							<li class="active">
+								<button type="button"></button>
+							</li>
+							<li class="slick-active">
+								<button type="button"></button>
+							</li>
+							<li>
+								<button type="button"></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<section class="header" id="promo">
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-6">
+			<div class="offer">
+				<h1 class="offer__title">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				</h1>
+				<ul class="offer__disc">
+					<li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, temporibus. Cum nihil distinctio nemo praesentium ducimus earum sunt provident eligendi modi beatae tempore voluptatibus doloribus, at totam nisi neque expedita! </li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem vitae, nisi quibusdam dolores est officiis? Iusto temporibus quis doloribus architecto similique! Non perspiciatis aperiam nisi eum ab possimus tenetur quae!</li>
+					<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate illo sunt ratione excepturi autem, maiores officiis quos laudantium beatae deserunt accusamus libero asperiores mollitia culpa velit fugiat voluptates corrupti impedit.</li>
+				</ul>
+				<a href="#order" class="offer__link">Заказать</a>
+			</div>
+		</div>
+		<div class="col-lg-6 d-flex justify-content-center" >
+			<div class="images" id="scene">
+				<div data-depth="0.8" class="layer">
+					<img src="img/doctor1.png" alt="Изображение продукта" class="main-img-sm">
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+</section>
+<section class="order-2" id="order">
+	<div class="container">
+	<div class="row">
+		<form class="decor">
+			<div class="form-left-decoration"></div>
+			<div class="form-right-decoration"></div>
+			<div class="circle"></div>
+			<div class="form-inner">
+			<h3>Оформление заказа</h3>
+			<input type="text" placeholder="Введите ФИО">
+			<input type="email" placeholder="Введите Email">
+			<input type="submit" value="Оформить заказ">
+			</div>
+			</form>
+	</div>
+</div>
+</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<p class="footer-text">
+						© Качурин Михаил
+					</p>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<nav class="menu">
+						<h5 class="menu__title">Меню</h5>
+						<ul class="menu__list">
+							<li>
+								<a href="#main">Главная</a>
+							</li>
+							<li>
+								<a href="#review">Отзывы</a>
+							</li>
+							<li>
+								<a href="#">promo</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/parallax.js"></script>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
